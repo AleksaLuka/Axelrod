@@ -31,7 +31,7 @@ class MyStrategy(Player):
             return C
 
         # play TFT
-        elif ((len(self.history)/30)%2) == 0:
+    elif (np.floor((len(self.history)/30))%2) == 0:
             return opponent.history[-1]
 
         # play ZD-GTFT2
