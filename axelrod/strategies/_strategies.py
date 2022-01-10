@@ -189,7 +189,6 @@ from .memoryone import (  # pylint: disable=unused-import
 
 from .memorytwo import AON2, MEM2, DelayedAON1
 from .memorytwo import MemoryTwoPlayer  # pylint: disable=unused-import
-
 from .mystrategy import MyStrategy
 
 from .mutual import Desperate, Hopeless, Willing
