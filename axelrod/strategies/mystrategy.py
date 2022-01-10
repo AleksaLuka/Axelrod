@@ -42,9 +42,9 @@ class MyStrategy(Player):
             elif (opponent.history[-1] == D and self.history[-1] == C):
                 p = random.random()
                 if (p <= 0.125):
-                    return C
-                else:
                     return D
+                else:
+                    return C
 
             elif (opponent.history[-1] == C and self.history[-1] == D):
                 return C
