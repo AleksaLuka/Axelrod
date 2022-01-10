@@ -12,7 +12,7 @@ class MyStrategy(Player):
     TitForTat strategy.
     """
 
-    name = "Aleksa's Alternator"
+    name = "MyStrategy"
 
     classifier = {
         "memory_depth": 1,
