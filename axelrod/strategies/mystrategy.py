@@ -1,5 +1,6 @@
 from axelrod.action import Action
 from axelrod.player import Player
+import random 
 
 C, D = Action.C, Action.D
 
