@@ -16,7 +16,7 @@ class MyStrategy(Player):
 
     classifier = {
         "memory_depth": 1,
-        "stochastic": True,
+        "stochastic": False,
         "long_run_time": False,
         "inspects_source": False,
         "manipulates_source": False,
