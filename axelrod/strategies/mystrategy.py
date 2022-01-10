@@ -1,6 +1,6 @@
 from axelrod.action import Action
 from axelrod.player import Player
-import random 
+import random
 
 C, D = Action.C, Action.D
 
@@ -24,7 +24,7 @@ class MyStrategy(Player):
         "manipulates_state": False,
     }
 
-    def strategy(opponent):
+    def strategy(self, opponent: Player) -> Action:
 
         # nice strategy, so start with C
         if len(self.history) == 0:
