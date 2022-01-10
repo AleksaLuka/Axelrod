@@ -48,7 +48,7 @@ class MyStrategy(Player):
             elif (opponent.history[-1] == C and self.history[-1] == D):
                 return C
 
-            else (opponent.history[-1] == D and self.history[-1] == D):
+            else:
                 p = random.random()
                 if (p <= 0.25):
                     return C
