@@ -2,6 +2,7 @@
 from ..classifier import Classifiers
 from ._strategies import *
 from ._filters import passes_filterset
+from .mystrategy import *
 
 # `from ._strategies import *` import the collection `strategies`
 # Now import the Meta strategies. This cannot be done in _strategies
